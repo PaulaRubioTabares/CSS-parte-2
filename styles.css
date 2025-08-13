@@ -17,3 +17,30 @@
 .strong strong, .strong em{
     color: #3bbd24;
 }
+
+
+/* Border estilo linea*/
+.style_dashed{
+    border-style: dashed;
+}
+.style_solid {
+    border-style: solid;
+}
+.style_dotted {
+    border-style: dotted ;
+}
+.style_double {
+    border-style: double ;
+}
+.style_groove{
+    border-style: groove;
+}
+.style_ridge{
+    border-style: ridge;
+}
+.style_inset{
+    border-style: inset;
+}
+.style_outset {
+    border-style: outset;
+}
