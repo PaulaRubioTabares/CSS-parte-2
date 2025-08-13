@@ -11,3 +11,9 @@
 .rgba{
     color: rgba(241, 74, 74, 0.87);
 }
+
+
+/* em y stronger en css */
+.strong strong, .strong em{
+    color: #3bbd24;
+}
