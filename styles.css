@@ -1,0 +1,13 @@
+/* Colores en CSS */
+.nombre{
+    color:aqua;
+}
+.rgb{
+    color: rgb(204, 0, 255);
+}
+.hexa{
+    color: #8d1e1e;
+}
+.rgba{
+    color: rgba(241, 74, 74, 0.87);
+}
