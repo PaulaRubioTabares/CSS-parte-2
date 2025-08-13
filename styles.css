@@ -44,3 +44,24 @@
 .style_outset {
     border-style: outset;
 }
+
+
+/* border color*/
+.border_color{
+    border-color: #a5229a;
+}
+/* border radius*/
+.border_radius{
+    border-radius: 15px;
+}
+/* border width */
+.border_width {
+    border-width: 10px;
+}
+.border_width_dos{
+    border-width: 2px;
+}
+/* Style para border radius y border color */
+.border_color, .border_radius, .border_width, .border_width_dos{
+    border-style: solid;
+}
