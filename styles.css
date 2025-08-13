@@ -67,7 +67,7 @@
 }
 
 
-/* Border completo */
+/* Border una sola línea excepto radius*/
 .border{
     border: 3px solid #2266a5;
 }
