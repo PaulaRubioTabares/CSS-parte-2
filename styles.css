@@ -104,6 +104,7 @@
 
 
 /* Fondo en css */
+
 /* Color */
 #bg_color{
     background-color: rgba(57, 132, 218, 0.596);
@@ -114,4 +115,31 @@
 #bg_imagen {
     color: aliceblue;
     background-image: url('20230827131929.png');
+}
+
+/*background_size */
+/* Arreglando imagen de fondo para todas las pruebas realizadas background size*/
+#bg_auto, #bg_cover, #bg_contain, #bg_pixeles{
+    color: rgb(255, 255, 255);
+    background-image: url('20230827131929.png');
+    height: 200px;
+}
+#bg_auto strong, #bg_cover strong, #bg_contain strong, #bg_pixeles strong{
+    color: rgb(128, 133, 226);
+}
+/* Auto */
+#bg_auto{
+    background-size: auto;
+}
+/* Cover */
+#bg_cover{
+    background-size: cover;
+}
+/* contain*/
+#bg_contain{
+    background-size: contain;
+}
+/* Pixeles, también usado para background repeat */
+#bg_pixeles{
+    background-size: 150px 150px;
 }
