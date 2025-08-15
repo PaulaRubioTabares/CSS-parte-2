@@ -194,3 +194,18 @@
 #center{
     background-position: center center;
 }
+
+
+                /* Background una sola linea */
+/* Arreglando texto para bag background*/
+#bg_una_sola_linea{
+    color: rgb(0, 0, 0);
+}
+#bg_una_sola_linea strong{
+    color: rgb(0, 62, 196);
+}
+/*  Background */
+#bg_una_sola_linea{
+    height: 250px;
+    background: #bd7624 url(20230827131929.png) no-repeat center center / 300px 200px;
+}
