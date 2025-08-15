@@ -143,3 +143,30 @@
 #bg_pixeles{
     background-size: 150px 150px;
 }
+
+/* background-repeat:*/
+/* Arreglando imagen de fondo para todas las pruebas realizadas background-repeat */
+#bg_no_repeat, #bg_repeat-x, #bg_repeat-y{
+    color: rgb(250, 235, 235);
+    background-image: url('20230827131929.png');
+    height: 300px;
+    background-color: #2266a5;
+    background-size: 150px 150px;
+}
+#bg_no_repeat strong, #bg_repeat-x strong, #bg_repeat-y strong{
+    color: rgb(131, 226, 128);
+}
+
+/* no repeat */
+#bg_no_repeat{
+    background-repeat: no-repeat;
+}
+/* repeat x*/
+#bg_repeat-x{
+    background-repeat: repeat-x;
+}
+/* repeat y */
+#bg_repeat-y{
+    background-repeat: repeat-y;
+}
+

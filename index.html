@@ -19,6 +19,7 @@
 <hr>
 
 
+
 <!-- Strong y em como selectores -->
     <h2>Strong y em en Css</h2>
     <p>A las etiquetas de strong y em se les puede considerar selectores, se pueden utilizar para que la parte de texto que este dentro de ellas se resalte aún más:</p>
@@ -26,8 +27,10 @@
 <hr>
 
 
+
 <!-- Border en css -->
     <h2>Border</h2>
+
     <!-- Border styles -->
     <h3>Border styles</h3>
     <p>Viendo en profundidad la etiqueta de border, contamos con border-style, esté sirve para dar estilo al borde</p>
@@ -42,31 +45,32 @@
     <p>También tiene valores como none y hidden</p>
     <hr>
 
-
-<!-- Border color -->
+    <!-- Border color -->
     <h3>Border color</h3>
     <p>A la propiedad de border también se le puede aplicar color, para poder visualizar su efecto, <strong>border debe tener si o si la propiedad de style</strong></p>
     <p class="border_color">Este párrafo tiene la propiedad de: <strong>border-style: solid y border-color: #a5229a;</strong></p>
 <hr>
-<!-- Border radius -->
+
+    <!-- Border radius -->
     <h3>Border radius</h3>
     <p>Esta propiedad de border ayuda a redondear las puntas, para ello se indica cuanto "radio va a tener el borde",<strong>border debe tener si o si la propiedad de style</strong></p>
     <p class="border_radius">Este párrafo tiene la propiedad de: <strong>border-style: solid y border-radius: 15px </strong></p>
 <hr>
-<!-- Grosor del border -->
+
+    <!-- Grosor del border -->
     <h3>Border width</h3>
     <p>Esta propiedad de border ayuda a definir el grosor de la línea<strong>border debe tener si o si la propiedad de style</strong></p>
     <p class="border_width">Este párrafo tiene la propiedad de: <strong>border-style: solid y border-radius: 15px </strong></p>
     <p class="border_width_dos">Este párrafo tiene la propiedad de: <strong>border-style: solid y border-radius: 3px </strong></p>
 <hr>
 
-
-<!-- Border una sola línea excepto radius -->
+    <!-- Border una sola línea excepto radius -->
     <h3>Border</h3>
     <p>Ahora bien, las propiedades de width, color y style, se pueden colocar en una sola linea.</p>
     <p class="border">Este párrafo tiene la propiedad de: <strong>border: 3px #2266a5 solid.</strong></p>
     <p>En donde sus características son: border: grosor color estilo.</p>
 <hr>
+
 
 
 <!-- Unidades de medida -->
@@ -86,9 +90,12 @@
     <p class="rem">El tamaño de letra de este texto está en <strong>rem: font-size: 2rem</strong></p>
 <hr>
 
+
+
 <!-- Fondo -->
     <h2>Background</h2>
-<!-- Color de fondo -->
+
+    <!-- Color de fondo -->
     <h3>Background color</h3>
     <p>Como su nombre lo indica coloca un color de fondo en el elemento</p>
     <article id="bg_color">
@@ -97,7 +104,7 @@
     <p>Además se añade la propiedad opacity</p>
 <hr>
 
-<!-- Imagen de fondo -->
+    <!-- Imagen de fondo -->
     <!-- background image -->
     <h3>Background image</h3>
     <p>Coloca en el fondo del elemento una imagen</p>
@@ -105,27 +112,55 @@
     <p>Para poder arreglar la visualización de la imagen, se puede usar la etiqueta de <strong>background-size</strong> con sus diferentes valores, dependiendo como se quiere dejar, para demostrar su uso se va a colocar <strong>un tamaño de 200px al elemento</strong></p>
 <hr>
 
+
 <!-- background size -->
-<!-- Auto -->
+
+    <!-- Auto -->
     <h3>Background-size Auto</h3>
     <p id="bg_auto">Imagen de fondo, elemento con un tamaño de height: 200px; <strong> e imagen con background-size: auto;</strong> <br>
                     En este caso, <strong>Auto</strong> es el valor por defecto, y no realiza cambios en las proporciones de la imagen, es decir, muestra su tamaño original. </p>
 <hr>
-<!-- Cover -->
+
+    <!-- Cover -->
     <h3>Background-size Cover</h3>
     <p id="bg_cover">Imagen de fondo, elemento con un tamaño de height: 200px; <strong> e imagen con background-size: cover;</strong> <br>
                     <strong>Cover</strong> ayuda a que la imagen cubra todo el elemento de html, además el tamaño de la imagen se va adaptando al tamaño de la ventana donde se está visualizando. </p>
 <hr>
-<!-- Contain -->
- <h3>Background-size Contain</h3>
+
+    <!-- Contain -->
+    <h3>Background-size Contain</h3>
     <p id="bg_contain">Imagen de fondo, elemento con un tamaño de height: 200px; <strong> e imagen con background-size: contain;</strong> <br>
                     <strong>Contain</strong> cambia el tamaño de la imagen proporcionalmente <strong>sin distorsionarla</strong> y si la imagen con ese tamaño no cubre todo el ancho del elemento entonces duplica la imagen.</p>
 <hr>
-<!-- bg_pixeles -->
-  <h3>Background-size px px</h3>
+
+    <!-- bg_pixeles -->
+    <h3>Background-size px px</h3>
     <p>Background-size también permite definir mediante pixeles el tamaño de la imagen</p>
     <p id="bg_pixeles">Imagen de fondo, elemento con un tamaño de height: 200px; <strong> e imagen con background-size: 150px 150px;</strong><br>
                     <strong>Medidas</strong> al definir tanto el ancho como el largo de la imagen esta <strong>puede distorsionar, </strong> y al igual que con contain, si la imagen con ese tamaño no cubre todo el ancho del elemento entonces duplica la imagen, y en este caso se observa que pasa si la imagen tampoco cubre el largo del elemento</p></p>
+<hr>
+
+
+<!-- background repeat-->
+    <h3>Background-repeat</h3>
+
+    <!-- No repeat-->
+    <p><strong>Para ver mejor este efecto se va a colocar un color al fondo del elemento</strong></p>
+    <h3>No-repeat</h3>
+    <p>Tanto en el caso de cover, como en el definir las medidas de la imagen, se observa que la imagen se repite para cubrir todo el ancho de la página, <strong>si se quiere que esto no pase</strong>, se utiliza la propiedad de <strong>background-repeat: no-repeat;</strong> </p>
+    <p id="bg_no_repeat">Imagen de fondo, elemento con un tamaño de height: 300px; <strong>e imagen con background-size: 150px 150px; y background-repeat: no-repeat;</strong></p>
+<hr>
+
+    <!-- Repeat x-->
+    <h3>Repeat x</h3>
+    <p>Pero background-repeat tiene más funciones, se puede hacer que la imagen se repita de manera horizontal a propósito con <strong>background-repeat: repeat-x;</strong> </p>
+    <p id="bg_repeat-x">Imagen de fondo, elemento con un tamaño de height: 300px; <strong>e imagen con background-size: 150px 150px; y background-repeat: repeat-x;</strong></p>
+<hr>
+
+    <!--Repeat y-->
+    <h3>Repeat y</h3>
+    <p>Y se puede hacer que la imagen se repita de manera vertical con <strong>background-repeat: repeat-y;</strong> </p>
+    <p id="bg_repeat-y">Imagen de fondo, elemento con un tamaño de height: 300px; <strong>e imagen con background-size: 150px 150px; y background-repeat: repeat-y;</strong></p>
 <hr>
 
 </body>
