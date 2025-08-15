@@ -71,3 +71,33 @@
 .border{
     border: 3px solid #2266a5;
 }
+
+
+/* Unidades de medida */
+/* unidades fijas */
+.centimetros{
+    font-size: 0.5cm;
+}
+.milimetros{
+    font-size: 4mm;
+}
+.pulgadas{
+    font-size: 0.2in;
+}
+.pixeles{
+    font-size: 20px;
+}
+.puntos{
+    font-size: 15pt;
+}
+.picas{
+    font-size: 1.5pc;
+}
+
+/* unidades relativas */
+.em{
+    font-size: 2em;
+}
+.rem{
+    font-size: 2rem;
+}
