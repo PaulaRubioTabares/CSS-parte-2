@@ -101,3 +101,17 @@
 .rem{
     font-size: 2rem;
 }
+
+
+/* Fondo en css */
+/* Color */
+#bg_color{
+    background-color: rgba(57, 132, 218, 0.596);
+    opacity: 0.4;
+}
+
+/* Imagen */
+#bg_imagen {
+    color: aliceblue;
+    background-image: url('20230827131929.png');
+}
