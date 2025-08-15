@@ -105,19 +105,19 @@
 
 /* Fondo en css */
 
-/* Color */
+                /*background-Color */
 #bg_color{
     background-color: rgba(57, 132, 218, 0.596);
     opacity: 0.4;
 }
 
-/* Imagen */
+                /* background-Imagen */
 #bg_imagen {
     color: aliceblue;
     background-image: url('20230827131929.png');
 }
 
-/*background_size */
+                /*background_size */
 /* Arreglando imagen de fondo para todas las pruebas realizadas background size*/
 #bg_auto, #bg_cover, #bg_contain, #bg_pixeles{
     color: rgb(255, 255, 255);
@@ -144,7 +144,7 @@
     background-size: 150px 150px;
 }
 
-/* background-repeat:*/
+                /* background-repeat:*/
 /* Arreglando imagen de fondo para todas las pruebas realizadas background-repeat */
 #bg_no_repeat, #bg_repeat-x, #bg_repeat-y{
     color: rgb(250, 235, 235);
@@ -156,7 +156,6 @@
 #bg_no_repeat strong, #bg_repeat-x strong, #bg_repeat-y strong{
     color: rgb(131, 226, 128);
 }
-
 /* no repeat */
 #bg_no_repeat{
     background-repeat: no-repeat;
@@ -170,3 +169,28 @@
     background-repeat: repeat-y;
 }
 
+                /* background-Position*/
+/* Arreglando imagen de fondo para todas las pruebas realizadas background-position */
+#left, #right, #center{
+    color: rgb(252, 211, 211);
+    background-image: url('20230827131929.png');
+    height: 200px;
+    background-color: #1b720a;
+    background-size: 170px 170px;
+    background-repeat: no-repeat;
+}
+#left strong, #right strong, #center strong{
+    color: rgb(226, 143, 128);
+}
+/*  Imagen a la izquierda y abajo  */
+#left{
+    background-position: left bottom;
+}
+/* Imagen a la derecha y arriba */
+#right{
+    background-position: right top;
+}
+/* Imagen en el centro */
+#center{
+    background-position: center center;
+}
